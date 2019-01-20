@@ -94,14 +94,6 @@ h1 {
 	width: 80%;
 }
 
-h1.brand {
-	font-size: 26px;
-	font-letter-spacing: -0.4px;
-}
-
-h1.brand a {
-	color: #171717;
-}
 
 
 
@@ -126,7 +118,7 @@ h2.secondtitle {
 
 h2.bigtitle span,
 h2.secondtitle span {
-	color: #CBCFD3;
+	color: #AFC5D8;
 }
 
 
@@ -152,7 +144,7 @@ h2.secondtitle span {
 
 .hero_second_img {
 	height: 620px;
-	background-color: #f2f3f5;
+	background-color: #AFC5D8;
 	overflow: hidden;
 	margin-right: calc((80vw - 1110px)/-2);
 }
@@ -290,7 +282,6 @@ h2.secondtitle span {
 #page-title a.name {
 	font-family: MontserratBold, "Arial", sans-serif;
 	font-size: 18px;
-	/*left: 16px;*/
 }
 
 
@@ -309,7 +300,7 @@ h2.secondtitle span {
 }
 
 #page-title span {
-	color: #b0b0b0;
+	color: #AFC5D8;
 }
 
 #page-title:hover {
@@ -558,7 +549,7 @@ section.about-page .table td {
 
 
 a.email:hover {
-	color: #35a7ff;
+	color: #ce5788;
 }
 
 /* fim  sobre */
@@ -654,7 +645,7 @@ a.email:hover {
 }
 
 .maillink:hover {
-	color: #35a7ff;
+	color: #ce5788;
 	transform: scale(0.99);
 }
 
@@ -733,7 +724,7 @@ a.email:hover {
 }
 
 #contact h2 a {
-	color: #CBCFD3;
+	color: #AFC5D8;
 	transition: 0.3s;
 	display: inline-block;
 	text-overflow: ellipsis;
@@ -771,7 +762,7 @@ a.email:hover {
 	text-align: left;
 	margin-right: 6px;
 	margin-left: 4px;
-	color: #DBDBDB;
+	color: #AFC5D8;
 }
 
 .menu ul.links li:not(:first-child):before {
@@ -780,7 +771,7 @@ a.email:hover {
 
 #contact ul.links li a,
 .menu ul.links li a {
-	color: #707070;
+	color: #AFC5D8;
 	text-decoration: none;
 	transition: 0.3s;
 	display: inline-block;
@@ -821,11 +812,6 @@ a.email:hover {
 	color: #007bb5;
 }
 
-#contact ul.links li a.instagram:hover,
-.menu ul.links li a.instagram:hover {
-	color: #bc2a8d;
-}
-
 #contact ul.links li a.github:hover,
 .menu ul.links li a.github:hover {
 	color: #707070;
@@ -861,7 +847,6 @@ a.email:hover {
 @keyframes uscita {
 	0% {
 		opacity: 1;
-		/*transform: scale(1);*/
 	}
 	100% {
 		opacity: 0;
@@ -1002,25 +987,7 @@ a.email:hover {
 	-webkit-transform: translate3d(0, 0, 0);
 }
 
-.projectpage .hero.dia::before {
-	background: url("../images/projects/dia/ar-banner.png"), #ffffff;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top center;
-	content: "";
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 0;
-	opacity: 0;
-	animation-name: bgopacity;
-	animation-duration: 1000ms;
-	animation-delay: 400ms;
-	animation-fill-mode: forwards;
-	-webkit-transform: translate3d(0, 0, 0);
-}
+
 
 
 @keyframes bgopacity {
@@ -1182,7 +1149,7 @@ a.email:hover {
 		font-size: 16px;
 	}
 	#contact h4 {
-		font-size: 11px;
+		font-size: 16px;
 	}
 	.projectpage h2.projecttitle {
 		font-size: 22px;
