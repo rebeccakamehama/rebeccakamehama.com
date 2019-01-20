@@ -223,7 +223,7 @@ h2.secondtitle span {
 	position: fixed;
 	z-index: 100;
 	top: 50%;
-	left: 20px;
+	left: 40px;
 	-webkit-transition: transform 0.3s cubic-bezier(0.6, 0.2, 0.1, 1);
 	-moz-transition: transform 0.3s cubic-bezier(0.6, 0.2, 0.1, 1);
 	-o-transition: transform 0.3s cubic-bezier(0.6, 0.2, 0.1, 1);
@@ -439,7 +439,7 @@ h2.secondtitle span {
 	font-family: MontserratBold, "Arial", sans-serif;
 	margin: 0;
 	padding: 0;
-	padding-bottom: 4vh;
+	padding-bottom: 10vh;
 }
 
 .menu .question {
