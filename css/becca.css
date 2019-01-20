@@ -1071,7 +1071,7 @@ a.email:hover {
 	}
 	#contact ul.links li,
 	.menu ul.links li {
-		font-size: 16px;
+		font-size: 18px;
 	}
 
 }
@@ -1119,7 +1119,7 @@ a.email:hover {
 		margin-top: 0;
 	}
 	.answer {
-		font-size: 16px;
+		font-size: 18px;
 		line-height: 28px;
 	}
 	.projectpage h2.projecttitle {
@@ -1128,7 +1128,7 @@ a.email:hover {
 	}
 	.projectpage p.description,
 	.projectpage p.text {
-		font-size: 16px;
+		font-size: 18px;
 		line-height: 28px;
 	}
 	.question h3 {
@@ -1138,7 +1138,7 @@ a.email:hover {
 		height: 60vh;
 	}
 	.project p.description {
-		font-size: 16px;
+		font-size: 18px;
 		width: 90%;
 		margin-bottom: 60px;
 	}
@@ -1146,10 +1146,10 @@ a.email:hover {
 		margin-top: 160px;
 	}
 	#contact ul.links li {
-		font-size: 16px;
+		font-size: 18px;
 	}
 	#contact h4 {
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.projectpage h2.projecttitle {
 		font-size: 22px;
